@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    /* SEMANTIC HTML */
+    h1{
+        text-align: center;
+    }
+    
+        h1, h2, h3 {
+      line-height: 1.3;
+    }
+
+    a {
+      color: #005fcc;
+      text-decoration: none;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    body{
+        font-size: 16px;
+        color: #333;
+        background-color: #fff;
+    }
+    
+    main {
+      max-width: 1100px;
+      margin: auto;
+      padding: 2rem 1rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    article {
+      margin-bottom: 2rem;
+    }
+
+    footer {
+      background-color: #222;
+      color: #fff;
+      text-align: center;
+      padding: 1.5rem;
+    }
+    
+    
+    /* ARIA Tools */
+    button:focus {
+        border: 2px solid #005fcc;
+    }
+    input:focus, textarea:focus{
+        border:2px solid #005fcc
+    }
+    /* Navigation */
+
+    .logo{
+        height: 400px;
+        width: auto;
+    }
+    nav{
+       display: flex;
+       flex-wrap: wrap;
+       align-items: center;
+       gap: 1.5rem;
+    }
+    nav ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;     
+    }
+    /* FORM */
+    form {
+      max-width: 600px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background-color: #f5f7fa;
+      border-radius: 6px;
+    }
+
+    form div {
+      margin-bottom: 1rem;
+    }
+
+    label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 0.6rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+
+    button {
+      background-color: #005fcc;
+      color: #fff;
+      border: none;
+      padding: 0.75rem 1.25rem;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    /* Responsiveness */
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Msizi Msimango">
+    <meta name="Description" content="This is my personal portfolio website where i share skills .">
+    <meta name="keywords" content="personal portfolio,msizi,skills,experience">
+    <title>Msizi Msimango - Personal Portfolio</title>
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <h1> Welcome to Msizi Msimango Personal Portfolio</h1>
+    
+        <!--Navigation-->
+        <nav aria-label="Main Navigation">
+            <img src="Logo maker project.png" alt="Logo" class="logo">
+
+            <ul>
+                <li><a href="#About-Me">ABOUT ME</a></li>
+                <li><a href="#EXPERIENCE-SKILLS">EXPERIENCE & SKILLS</a></li>
+                <li><a href="#MY-PROJECTS-ACHIEVEMENTS">MY PROJECTS & ACHIEVEMENTS</a></li>
+                <li><a href="#Professional-Summary">PROFESSIONAL SUMMARY</a></li>
+                <li><a href="#Contact">CONTACT</a></li>     
+            </ul>
+        </nav>
+    </header>
+    
+    <!--Main content-->
+    <main id="main content">
+
+        <!--About Me-->
+        <section role="ABOUT ME" aria-labelledby="About-me-section">
+            <h2 id="About-Me">About me</h2>
+            <img class="Profileimage" src="Profile Picture.png" fetchpriority="high" alt="Msizi profile picture">
+            <p>I am Msizi Msimango</p>
+            <p>I am passionate about delivering high-quality engineering solutions and successfully bringing new products into production.
+            <p>I enjoy solving complex technical challenges, driving continuous improvement, and working collaboratively across teams to ensure efficient, reliable, and cost-effective manufacturing outcomes.
+        </section>
+    
+        <!--Experience & Skills-header-->
+        <section role="EXPERIENCE & SKILLS" aria-labelledby="Experience & Skills -section">
+            <h2 id="EXPERIENCE-SKILLS">Experience & Skills</h2>
+            
+            <article aria-labelledby="Professional Experience">
+                <h3 id="sub-tittle-Profection experience"><strong>Professional Experience</strong></h3>
+                <article aria-labelledby="Job1"></article>
+                    <h3 id="Job1">Specialist: Campaign Management</h3>
+                    <p><strong>Mercedes-Benz South Africa Ltd</strong>  | Dec 2022 – Present</p>
+                    <ul>
+                        <li>Manage and coordinate engineering campaigns across the product lifecycle, ensuring effective implementation of changes while aligning quality, production, and business objectives.</li>
+                        <li>Work closely with cross-functional teams to support seamless execution and compliance with engineering standards.</li>
+                    </ul>
+                </article>
+                <article aria-labelledby="Job2"></article>
+                    <h3 id="Job2">Engineering Change Specialist</h3>
+                    <p><strong>Mercedes-Benz South Africa Ltd</strong>  | Jul 2019 – Nov 2022</p>
+                    <ul>
+                        <li>Led the management of engineering changes from planning through implementation within the manufacturing environment. Ensured accurate documentation, stakeholder alignment, and timely execution to support new product introductions and ongoing production improvements.</li>
+                    </ul>
+                </article>
+            </article>
+            <article aria-labelledby="Key Skills">
+                <h3 id="Key Skills"><strong>Key Skills</strong></h3>
+                    <ul>
+                        <li><strong>Engineering Project Management:</strong> Skilled in planning and executing engineering change initiatives from concept through production.</li>
+                        <li><strong>Cross-Functional Collaboration:</strong> Experienced in working with design, manufacturing, quality and supply teams to ensure alignment and delivery.</li>
+                        <li><strong>Automotive Manufacturing Expertise:</strong> Deep understanding of automotive production systems, tooling, and quality standards.</li>
+                        <li><strong>Problem Solving & Continuous Improvement:</strong> Able to diagnose complex production challenges and implement sustainable solutions.</li>
+                        <li><strong>Communication & Stakeholder Management:</strong> Clear communicator capable of liaising with technical and non-technical stakeholders to drive project success.</li>
+                    </ul>
+            </article>
+        </section>
+
+        <!--My Projects & Achievemnts-->
+        <section role="MY PROJECTS & ACHIEVEMENTS" aria-labelledby="My Projects & Achievemnts-section">
+            <article aria-labelledby="Projects & Achievements">
+                <h2 id="MY-PROJECTS-ACHIEVEMENTS">My Projects & Achievemnts</h2>
+                <p><strong>New Product Launches & Engineering Introductions</strong></p>
+                <ul>
+                    <li>Successfully managed and delivered multiple product introductions and engineering changes within the automotive manufacturing environment — coordinating end-to-end activities from prototype validation through full production release.</li>
+                </ul>
+                <p><strong>Integration Projects</strong></p>
+                <ul>
+                    <li>Led collaborative initiatives across departments to refine process flows and reduce production risk during new model ramp-ups.</li>
+                </ul>
+                <p><strong>Process and Quality Improvements</strong></p>
+                <ul>
+                    <li>Implemented continuous improvement practices that enhanced efficiency and lowered defect rates during product introduction cycles.</li>
+                </ul>
+            </article>
+        </section>
+
+        <!--Professional summary-->
+        <section role="PROFESSIONAL SUMMARY" aria-labelledby="Professional Summary-section">
+            <h2 id="Professional-Summary">Professional Summary</h2>
+            <p>Seasoned engineer with a decade of hands-on experience in automotive manufacturing and product introduction, I excel at bridging the gap between design intent and production reality. 
+            My strengths lie in coordination, technical problem solving, and delivery of complex engineering projects — ensuring products are introduced smoothly, efficiently, and in line with the highest quality standards.</p>
+        </section>
+
+        <!--form-->
+        <section role="CONTACT" aria-labelledby="Contant-section">
+            <h2 id="Contact">Contact me</h2>
+            <form aria-labelledby="form">
+                <p>
+                    All fields are required. Your information will only be used to respond to your message.
+                </p>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" autocomplete="given-name" aria-required="true">
+
+                <label for="Lastname">Last Name:</label>
+                <input type="text" id="Lastname" name="Lastname" autocomplete="family-name" aria-required="true">        
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" autocomplete="off" required aria-required="true">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" aria-required="true"></textarea>
+
+                <button class="submit-button" type="submit" onclick="submitform()">submit</button>
+            </form>
+        </section>
+    </main>
+    <footer role="footer" aria-labelledby="Footer-section">
+        <div>
+            <p> &copy; Copyrights 2026 created by Msizi Msimango. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+</body>
+
+</html>
